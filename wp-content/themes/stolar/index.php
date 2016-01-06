@@ -17,6 +17,8 @@
             <?php include "index-components/contacts.php"; ?>
 
             <?php include "index-components/bottom.php"; ?>
+
+            <?php include "index-components/widget-phones.php"; ?>
         </main><!-- #main -->
     </div><!-- #primary -->
 

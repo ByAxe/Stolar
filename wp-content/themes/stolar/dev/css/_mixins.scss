@@ -1,3 +1,8 @@
+$xs: 480px;
+$s: 768px;
+$m: 992px;
+$l: 1200px;
+
 @mixin shadow($level: 1) {
   @if $level == 1 {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;
@@ -14,4 +19,19 @@
 
 @mixin transition($time){
   transition: $time all;
+}
+
+@mixin media($media) {
+  @if $media == xs {
+    @media only screen and (max-width: $xs) { @content; }
+  }
+  @else if $media == s {
+    @media only screen and (min-width: xs + 1) and (max-width: s - 1) { @content; }
+  }
+  @else if $media == m {
+    @media only screen and (min-width: s + 1) and (max-width: m - 1) { @content; }
+  }
+  @else if $media == l {
+    @media only screen and (min-width: l - 1) { @content; }
+  }
 }

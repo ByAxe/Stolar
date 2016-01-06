@@ -25,7 +25,7 @@
     <meta name="copyright" Content="StolarBy">
 
     <link
-        href='https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700'
+        href='https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700,900'
         rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/dist/css/bootstrap.min.css"/>
@@ -35,20 +35,11 @@
 
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/dist/css/style.css"/>
 
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/dist/css/swipebox.min.css"/>
+
     <meta name='yandex-verification' content=''/>
     <meta name="google-site-verification" content=""/>
 
-    <script type="text/javascript">
-
-        ddsmoothmenu.init({
-            mainmenuid: "templatemo_flicker", //menu DIV id
-            orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
-            classname: 'ddsmoothmenu', //class added to menu's outer DIV
-            //customtheme: ["#1c5a80", "#18374a"],
-            contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
-        })
-
-    </script>
 
 </head>
 

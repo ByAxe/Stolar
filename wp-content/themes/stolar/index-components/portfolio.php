@@ -85,23 +85,15 @@
         </div>
     </div>
     <div class="clear"></div>
-    <div class="container">
+    <div class="container hidden-xs hidden-smr">
         <div class="col-xs-6 col-sm-6 col-md-3 templatemo_col12">
             <div class="portfolio-item">
                 <div class="portfolio-thumb">
+                    <a class="swipebox" href="<?php bloginfo('template_url'); ?>/images/portfolio/5.png"">
+
                     <img src="<?php bloginfo('template_url'); ?>/images/portfolio/5.png" alt="portfolio 5">
-                    <div class="overlay-p">
-                        <a href="<?php bloginfo('template_url'); ?>/images/portfolio/5.png" data-rel="lightbox">
-                            <ul>
-                                <li>Пристройки/дома</li>
-                                <li class="fa fa-circle"></li>
-                                <li class="fa fa-circle fsmall"></li>
-                                <li class="fa fa-circle"></li>
-                                <li class="fa fa-circle fsmall"></li>
-                                <li class="fa fa-search fa-2x"></li>
-                            </ul>
-                        </a>
-                    </div>
+
+                    </a>
                 </div> <!-- /.portfolio-thumb -->
             </div>
 
@@ -109,7 +101,7 @@
         <div class="col-xs-6 col-sm-6 col-md-3 templatemo_col12">
             <div class="portfolio-item">
                 <div class="portfolio-thumb">
-                    <img src="<?php bloginfo('template_url'); ?>/images/portfolio/6.png" alt="portfolio 6" >
+                    <img src="<?php bloginfo('template_url'); ?>/images/portfolio/6.png" alt="portfolio 6">
                     <div class="overlay-p">
                         <a href="<?php bloginfo('template_url'); ?>/images/portfolio/6.png" data-rel="lightbox">
                             <ul>

@@ -279,7 +279,7 @@ img {
 
 .templatemo_portfolio p {
   padding-bottom: 50px;
-  font-size:1.1em;
+  font-size: 1.1em;
 }
 
 .portfolio-thumb {
@@ -748,6 +748,12 @@ ul.footer_gallery li {
   margin: 0 5px 5px 0;
   vertical-align: top;
   width: 25%;
+  @include shadow(1);
+  @include transition(0.25s);
+  &:hover {
+    @include shadow(2);
+    transform: translateY(-2px);;
+  }
 }
 
 ul.footer_gallery li img {
@@ -800,7 +806,7 @@ ul.footer_gallery li img {
     left: 5%;
     width: 90%;
   }
-  .templatemo_col12{
+  .templatemo_col12 {
     margin-bottom: 10px;
   }
 }
