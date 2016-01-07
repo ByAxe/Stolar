@@ -1,8 +1,8 @@
 .widget {
   position: fixed;
+  user-select: none;
   left: 82%;
   top: 85%;
-  user-select: none;
 
   &-icon {
     visibility: visible;
@@ -72,8 +72,8 @@
       background: #0694CA;
       border-radius: 5px 5px 0 0;
 
-      p {
-        color: #fff;
+      p, a {
+        color: #fff !important;
       }
     }
     &-call-right-now {
@@ -85,50 +85,24 @@
     }
   }
 }
+
 @include media('xs') {
   .widget {
     left: 70%;
     top: 85%;
-
-    &-icon {
-
-      &-background {
-
-      }
-    }
-
-    &-info {
-
-      &-phones {
-
-      }
-      &-call-right-now {
-
-      }
-    }
   }
 }
 
-@include media('l') {
-  .widget {
-    left: 93%;
-    top: 87%;
+@media only screen and (min-width: 568px) and (max-width: 768px) and (orientation: landscape) {
+  .widget{
+    left: 82%;
+    top: 70%;
+  }
+}
 
-    &-icon {
-
-      &-background {
-
-      }
-    }
-
-    &-info {
-
-      &-phones {
-
-      }
-      &-call-right-now {
-
-      }
-    }
+@media only screen and (min-width: 319px) and (max-width: 370px) and (orientation: portrait) {
+  .widget{
+    left: 65%;
+    top: 78%;
   }
 }

@@ -25,7 +25,7 @@
     <meta name="copyright" Content="StolarBy">
 
     <link
-        href='https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700,900'
+        href='https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700'
         rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/dist/css/bootstrap.min.css"/>
@@ -34,8 +34,6 @@
           href="<?php bloginfo('template_url'); ?>/dist/font-awesome/css/font-awesome.min.css"/>
 
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/dist/css/style.css"/>
-
-    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/dist/css/swipebox.min.css"/>
 
     <meta name='yandex-verification' content=''/>
     <meta name="google-site-verification" content=""/>

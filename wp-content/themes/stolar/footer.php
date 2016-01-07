@@ -44,10 +44,9 @@
 
 
 <script src="<?php bloginfo('template_url'); ?>/dist/js/jquery-2.1.4.min.js"></script>
-<script src="<?php bloginfo('template_url'); ?>/dist/js/jquery.swipebox.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/dist/js/jquery.swipebox.js"></script>
 
 <script src="<?php bloginfo('template_url'); ?>/dist/js/script.js"></script>
-<script src="<?php bloginfo('template_url'); ?>/dist/js/d-smooth-menu.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/dist/js/bootstrap.min.js"></script>
 
 </body>

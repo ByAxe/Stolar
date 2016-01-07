@@ -670,7 +670,7 @@ img {
 }
 
 .templatemo_footer .col-xs-11 {
-  padding: 0px 0px 0px 10px;
+  padding: 5px 0 0 10px;
 }
 
 .templatemo_footer span.left.fa-envelope {
@@ -1022,5 +1022,10 @@ ul.footer_gallery li img {
   #slider-direction-nav,
   #slider-control-nav {
     opacity: 1;
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1199px){
+  .two-strings{
+    padding: 0 0 0 10px !important;
   }
 }

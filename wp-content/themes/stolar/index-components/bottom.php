@@ -24,57 +24,90 @@
                 <ul class="nobullet footer_gallery">
                     <li>
                         <a href="<?php bloginfo('template_url'); ?>/images/portfolio/1.png"
-                           data-lightbox="example-set"
-                           data-title="Click the right half of the image to move forward."><img
+                           rel="gallery-2"
+                           class="swipebox"
+                           title="My Caption">
+                            <img
                                 src="<?php bloginfo('template_url'); ?>/images/portfolio/1.png"
                                 alt="image 1"/>
                         </a>
                     </li>
                     <li>
                         <a href="<?php bloginfo('template_url'); ?>/images/portfolio/2.png"
-                           data-rel="lightbox[gallery]"><img
+                           rel="gallery-2"
+                           class="swipebox"
+                           title="My Caption">
+                            <img
                                 src="<?php bloginfo('template_url'); ?>/images/portfolio/2.png"
                                 alt="image 2"/>
                         </a>
                     </li>
                     <li>
                         <a href="<?php bloginfo('template_url'); ?>/images/portfolio/3.png"
-                           data-rel="lightbox[gallery]"><img
+                           rel="gallery-2"
+                           class="swipebox"
+                           title="My Caption">
+                            <img
                                 src="<?php bloginfo('template_url'); ?>/images/portfolio/3.png"
                                 alt="image 3"/>
                         </a>
                     </li>
                     <li>
                         <a href="<?php bloginfo('template_url'); ?>/images/portfolio/4.png"
-                           data-rel="lightbox[gallery]"><img
+                           rel="gallery-2"
+                           class="swipebox"
+                           title="My Caption">
+                            <img
                                 src="<?php bloginfo('template_url'); ?>/images/portfolio/4.png"
                                 alt="image 4"/>
                         </a>
                     </li>
                     <li>
                         <a href="<?php bloginfo('template_url'); ?>/images/portfolio/5.png"
-                           data-rel="lightbox[gallery]"><img
+                           rel="gallery-2"
+                           class="swipebox"
+                           title="My Caption">
+                            <img
                                 src="<?php bloginfo('template_url'); ?>/images/portfolio/5.png"
                                 alt="image 5"/>
                         </a>
                     </li>
                     <li>
                         <a href="<?php bloginfo('template_url'); ?>/images/portfolio/6.png"
-                           data-rel="lightbox[gallery]"><img
+                           rel="gallery-2"
+                           class="swipebox"
+                           title="My Caption">
+                            <img
                                 src="<?php bloginfo('template_url'); ?>/images/portfolio/6.png"
                                 alt="image 6"/>
                         </a>
                     </li>
                     <li>
                         <a href="<?php bloginfo('template_url'); ?>/images/portfolio/7.png"
-                           data-rel="lightbox[gallery]"><img
+                           rel="gallery-2"
+                           class="swipebox"
+                           title="My Caption">
+                            <img
                                 src="<?php bloginfo('template_url'); ?>/images/portfolio/7.png"
                                 alt="image 7"/>
                         </a>
                     </li>
                     <li>
                         <a href="<?php bloginfo('template_url'); ?>/images/portfolio/8.png"
-                           data-rel="lightbox[gallery]"><img
+                           rel="gallery-2"
+                           class="swipebox"
+                           title="My Caption">
+                            <img
+                                src="<?php bloginfo('template_url'); ?>/images/portfolio/8.png"
+                                alt="image 8"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?php bloginfo('template_url'); ?>/images/portfolio/8.png"
+                           rel="gallery-2"
+                           class="swipebox"
+                           title="My Caption">
+                            <img
                                 src="<?php bloginfo('template_url'); ?>/images/portfolio/8.png"
                                 alt="image 8"/>
                         </a>
@@ -86,7 +119,7 @@
         <div class="col-xs-6 col-sm-6 col-md-3 templatemo_col12">
             <h2>Контакты</h2>
             <span class="left col-xs-1 fa fa-map-marker"></span>
-            <span class="right col-xs-11">г. Минск ул. Космонавтов 47</span>
+            <span class="right col-xs-11 two-strings">г. Минск ул. Космонавтов 47</span>
             <div class="clear height10"></div>
             <span class="left col-xs-1 fa fa-phone"></span>
             <span class="right col-xs-11">8029-603-79-39</span>

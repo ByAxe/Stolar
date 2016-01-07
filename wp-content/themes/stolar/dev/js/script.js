@@ -43,6 +43,12 @@ $(document).ready(function () {
         $('.widget-info').fadeToggle("fast");
     });
 
+    ;( function( $ ) {
+
+        $( '.swipebox' ).swipebox();
+
+    } )( jQuery );
+
 
 
 });
