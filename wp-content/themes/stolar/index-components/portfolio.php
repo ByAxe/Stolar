@@ -15,6 +15,15 @@
 
                     </a>
                 </div> <!-- /.portfolio-thumb -->
+                <div class="portfolio-text">
+                    <div class="portfolio-text-headline">
+                        Lorem ipsum dolor
+                    </div>
+                    <div class="portfolio-text-description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque obcaecati, possimus quasi rerum
+                        sapiente sunt.
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -30,6 +39,15 @@
 
                     </a>
                 </div> <!-- /.portfolio-thumb -->
+                                <div class="portfolio-text">
+                    <div class="portfolio-text-headline">
+                        Lorem ipsum dolor
+                    </div>
+                    <div class="portfolio-text-description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque obcaecati, possimus quasi rerum
+                        sapiente sunt.
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -45,6 +63,15 @@
 
                     </a>
                 </div> <!-- /.portfolio-thumb -->
+                                <div class="portfolio-text">
+                    <div class="portfolio-text-headline">
+                        Lorem ipsum dolor
+                    </div>
+                    <div class="portfolio-text-description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque obcaecati, possimus quasi rerum
+                        sapiente sunt.
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -60,6 +87,15 @@
 
                     </a>
                 </div> <!-- /.portfolio-thumb -->
+                                <div class="portfolio-text">
+                    <div class="portfolio-text-headline">
+                        Lorem ipsum dolor
+                    </div>
+                    <div class="portfolio-text-description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque obcaecati, possimus quasi rerum
+                        sapiente sunt.
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -78,6 +114,15 @@
 
                     </a>
                 </div> <!-- /.portfolio-thumb -->
+                                <div class="portfolio-text">
+                    <div class="portfolio-text-headline">
+                        Lorem ipsum dolor
+                    </div>
+                    <div class="portfolio-text-description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque obcaecati, possimus quasi rerum
+                        sapiente sunt.
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -93,6 +138,15 @@
 
                     </a>
                 </div> <!-- /.portfolio-thumb -->
+                                <div class="portfolio-text">
+                    <div class="portfolio-text-headline">
+                        Lorem ipsum dolor
+                    </div>
+                    <div class="portfolio-text-description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque obcaecati, possimus quasi rerum
+                        sapiente sunt.
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -108,6 +162,15 @@
 
                     </a>
                 </div> <!-- /.portfolio-thumb -->
+                                <div class="portfolio-text">
+                    <div class="portfolio-text-headline">
+                        Lorem ipsum dolor
+                    </div>
+                    <div class="portfolio-text-description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque obcaecati, possimus quasi rerum
+                        sapiente sunt.
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -123,6 +186,15 @@
 
                     </a>
                 </div> <!-- /.portfolio-thumb -->
+                                <div class="portfolio-text">
+                    <div class="portfolio-text-headline">
+                        Lorem ipsum dolor
+                    </div>
+                    <div class="portfolio-text-description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque obcaecati, possimus quasi rerum
+                        sapiente sunt.
+                    </div>
+                </div>
             </div>
 
         </div>

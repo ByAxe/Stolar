@@ -20,7 +20,8 @@
         <div class="container">
             <div class="row footer-elements">
                 <div class="left">
-                    <span>Copyright © 2015 <a href="http://jobs.tut.by/resume/9aa16e5cff02c103ce0039ed1f6d3065433972">By Axe</a></span>
+                    <span>Copyright © 2015-2016 <a href="http://jobs.tut.by/resume/9aa16e5cff02c103ce0039ed1f6d3065433972">By
+                            Axe</a></span>
                 </div>
                 <div class="right">
                     <a href="http://vk.com/gimbarr_by_axe">
@@ -48,6 +49,19 @@
 
 <script src="<?php bloginfo('template_url'); ?>/dist/js/script.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/dist/js/bootstrap.min.js"></script>
+
+<!-- BEGIN JIVOSITE CODE {literal} -->
+<script type='text/javascript'>
+    (function () {
+        var widget_id = 'VonbKUXM0f';
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = '//code.jivosite.com/script/widget/' + widget_id;
+        var ss = document.getElementsByTagName('script')[0];
+        ss.parentNode.insertBefore(s, ss);
+    })();</script>
+<!-- {/literal} END JIVOSITE CODE -->
 
 </body>
 </html>

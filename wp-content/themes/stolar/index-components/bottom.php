@@ -9,11 +9,11 @@
         <div class="col-xs-6 col-sm-6 col-md-3 templatemo_col12">
             <h2>Услуги</h2>
             <ul>
-                <li>Лестницы</li>
-                <li>Встроенная мебель</li>
-                <li>Внутренняя Отделка</li>
-                <li>Балконы</li>
-                <li>Дачи</li>
+                <li><a href="#">Лестницы</a></li>
+                <li><a href="#">Встроенная мебель</a></li>
+                <li><a href="#"></a>Внутренняя Отделка</a></li>
+                <li><a href="#">Балконы</a></li>
+                <li><a href="#">Дачи</a></li>
             </ul>
             <div class="clear"></div>
             <div class="templatemo_morelink"><a href="#">И многое другое... </a></div>
@@ -118,17 +118,32 @@
         </div>
         <div class="col-xs-6 col-sm-6 col-md-3 templatemo_col12">
             <h2>Контакты</h2>
-            <span class="left col-xs-1 fa fa-map-marker"></span>
-            <span class="right col-xs-11 two-strings">г. Минск ул. Космонавтов 47</span>
+
+            <span class="left col-xs-1 fa fa-phone special-offset"></span>
+            <span class="right col-xs-11">
+                <a class="phone-vel" href="#">+375-29-603-79-39</a>
+            </span>
+            <span class="right col-xs-11">
+                <a class="phone-mts" href="#">+375-29-578-79-05</a>
+            </span>
+            <span class="right col-xs-11">
+                <a class="phone-home" href="#">+375-17-296-82-57</a>
+            </span>
+
             <div class="clear height10"></div>
-            <span class="left col-xs-1 fa fa-phone"></span>
-            <span class="right col-xs-11">8029-603-79-39</span>
-            <div class="clear height10"></div>
+
             <span class="left col-xs-1 fa fa-envelope"></span>
-            <span class="right col-xs-11">karamazov@tyt.by</span>
+            <span class="right col-xs-11">
+                <a href="mailto:karamazov@tut.by">karamazov@tut.by</a>
+            </span>
+
             <div class="clear height10"></div>
+
             <span class="left col-xs-1 fa fa-globe"></span>
-            <span class="right col-xs-11">http://stolar.by</span>
+            <span class="right col-xs-11">
+                <a href="<?php echo esc_url(home_url('/')); ?>/">http://stolar.by</a>
+            </span>
+
             <div class="clear"></div>
         </div>
     </div>

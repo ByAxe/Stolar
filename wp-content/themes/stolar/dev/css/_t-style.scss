@@ -6,7 +6,7 @@ html, body {
 }
 
 a {
-  color: #00ACE9;
+  color: #5B5B5B;
 }
 
 a:hover {
@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 2em;
   color: #333333;
 }
 
@@ -129,21 +129,6 @@ img {
   background: #72b842;
   line-height: 60px;
   font-size: 14px;
-}
-
-.btn-primary {
-  background-color: #48A770;
-  border-color: #48A770;
-}
-
-.btn-primary:hover {
-  background-color: #417C59;
-  border-color: #417C59;
-}
-
-.btn-primary:focus {
-  background-color: green;
-  border-color: green;
 }
 
 .templatemo_caption p {
@@ -341,7 +326,7 @@ img {
   @include shadow(1);
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
-  border-radius: 5px;
+  border-radius: 3px;
   @include transition(0.25s);
 
   &:hover {
@@ -351,6 +336,20 @@ img {
     .overlay-p {
       visibility: visible;
       opacity: 1;
+    }
+  }
+  .portfolio-text {
+    background: white;
+    text-align: left;
+    font-weight: 400;
+    color: #333;
+
+    &-headline {
+      font-size: 1.5em;
+      padding: 18px 0 0 14px;
+    }
+    &-description {
+      padding: 0 0 15px 14px;
     }
   }
 }
@@ -1024,8 +1023,7 @@ ul.footer_gallery li img {
     opacity: 1;
   }
 }
-@media only screen and (min-width: 991px) and (max-width: 1199px){
-  .two-strings{
-    padding: 0 0 0 10px !important;
-  }
+
+.special-offset {
+  padding-top: 25px !important;
 }

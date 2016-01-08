@@ -14,7 +14,9 @@
 
             <?php include "index-components/clients.php"; ?>
 
-            <?php include "index-components/contacts.php"; ?>
+            <?php include "index-components/contract.php"; ?>
+
+            <?php include "index-components/order-form.php"; ?>
 
             <?php include "index-components/bottom.php"; ?>
 

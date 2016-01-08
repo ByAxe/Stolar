@@ -29,6 +29,9 @@ get_header(); ?>
 
             endwhile; // End of the loop.
             ?>
+            <?php include "index-components/bottom.php"?>
+
+            <?php include "index-components/widget-phones.php"?>
 
         </main><!-- #main -->
     </div><!-- #primary -->

@@ -27,31 +27,24 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   ---------------------------------------------------------------------------------
   ---------------------------------------------------------------------------------
 */
-
 @import "t-misc";
-
 /*
   ---------------------------------------------------------------------------------
   ---------------------------------------------------------------------------------
   ---------------------------------------------------------------------------------
 */
-
 @import "t-style";
-
 /*
   ---------------------------------------------------------------------------------
   ---------------------------------------------------------------------------------
   ---------------------------------------------------------------------------------
 */
-
 @import "widget";
-
 /*
   ---------------------------------------------------------------------------------
   ---------------------------------------------------------------------------------
   ---------------------------------------------------------------------------------
 */
-
 @import "swipebox";
 
 /*
@@ -137,7 +130,7 @@ html, body {
 }
 
 .jumbotron {
-  padding: 0px;
+  padding: 0;
   background: #f3efe0;
 }
 
@@ -187,24 +180,60 @@ html, body {
 }
 
 .row {
-  margin-left: 0px !important;
-  margin-right: 0px !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
-.blockWithForm {
-  color: whitesmoke;
+.order-form {
   padding: 35px 0;
-  border-bottom: 2px solid whitesmoke;
-}
 
-.area {
-  min-height: 300px;
-}
 
-legend {
-  text-align: center;
-  font-size: 2.5em;
-  color: #757575 !important;
+  legend {
+    text-align: center !important;
+    font-size: 2.5em !important;
+    font-weight: 300;
+  }
+  p{
+    color: #333;
+  }
+  .form-horizontal .form-group {
+
+    input, textarea {
+      background: initial;
+      border: none;
+      box-shadow: none;
+      font-size: 1.2em;
+      padding: 0 0 3px 0;
+      border-bottom: 1px solid #DBDBDB;
+      border-radius: 0;
+      @include transition(0.1s);
+      color: #333;
+
+      &:focus {
+        border-bottom: 2px solid #4f9ddc;
+      }
+    }
+    input[plaseholder]{
+      color: #858585 !important;
+      opacity:1;
+      transition: 0.3s ease;
+
+      &:focus{
+        opacity: 0;
+        transition: 0.3s ease;
+      }
+    }
+
+    label {
+      text-align: left;
+      color: #4C4C4C !important;
+      font-weight: 400;
+    }
+
+    textarea {
+      min-height: 100px;
+    }
+  }
 }
 
 .paddingToFooter {
@@ -266,6 +295,12 @@ legend {
 
 .navbar-right {
   font-size: 1.2em;
+}
+
+@media only screen and (min-width: 766px) and (max-width: 991px) {
+  .navbar-right {
+    font-size: 1em;
+  }
 }
 
 fieldset {
@@ -669,10 +704,25 @@ fieldset {
     transform: translateY(-5px);
   }
 
-  &-info {
+  &-primary {
+    background-color: #48A770;
     border: none;
 
     &:hover {
+      background-color: #47945e;
+      border: none;
+    }
+    &:focus {
+      background-color: #0e9610;
+      border: none;
+    }
+  }
+  &-info {
+    border: none;
+    background: #47B26E;
+
+    &:hover {
+      background: #47B26E;
     }
   }
 }
@@ -743,10 +793,14 @@ fieldset {
   }
 }
 
-.carousel-indicators{
+.carousel-indicators {
   z-index: 3 !important;
 }
 
-.navbar-static-top{
-  z-index:5 !important;
+.navbar-static-top {
+  z-index: 5 !important;
+}
+
+div#jivo-iframe-container {
+  z-index: 10 !important;
 }

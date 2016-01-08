@@ -24,9 +24,13 @@
     <meta http-equiv="Content-Language" content="ru">
     <meta name="copyright" Content="StolarBy">
 
+    <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/images/fav.ico" type="image/x-icon">
+
+    <!--TODO fonts don't work on Android and iOS devices-->
     <link
         href='https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700'
         rel='stylesheet' type='text/css'>
+
 
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/dist/css/bootstrap.min.css"/>
 
@@ -54,15 +58,16 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#"><i class="fa fa-home fa-fw"></i>&nbsp; Столяр.by</a>
+                    <a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>/"><i class="fa fa-home fa-fw"></i>&nbsp; Столяр.by</a>
                 </div>
                 <div class="collapse navbar-collapse" id="responsive-menu">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">Главная</a></li>
-                        <li><a href="#">Выполняемые работы</a></li>
-                        <li><a href="#">Галлерея</a></li>
-                        <li><a href="#">Контакты</a></li>
-                        <li><a href="#">Форма заказа</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/')); ?>/">Главная</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/')); ?>/profile">Выполняемые работы</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/')); ?>/gallery">Галерея</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/')); ?>/achievements">Наши Преимущества</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/')); ?>/contacts">Контакты</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/')); ?>/order-form">Форма заказа</a></li>
                     </ul>
                 </div>
             </div>

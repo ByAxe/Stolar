@@ -61,19 +61,53 @@
     width: 200px;
     text-align: center;
     background: #FFF;
-    border-radius: 5px 5px 100px;
+    border-radius: 3px 3px 100px;
     margin: -160px 0 0 -155px;
     @include shadow(3);
 
     &-phones {
-      padding: 10px 0 0 0;
       border-bottom: 1px solid #DFDFDF;
       font-size: 1.3em;
-      background: #0694CA;
-      border-radius: 5px 5px 0 0;
+      background: #24AFE5;
+      border-radius: 3px 3px 0 0;
 
-      p, a {
-        color: #fff !important;
+      &-group {
+        border-bottom: 1px solid white;
+
+        a, p, i {
+          color: #fff !important;
+          font-weight: 300;
+        }
+        a {
+          line-height: 2em;
+          padding-left: 23px;
+        }
+
+        i {
+          position: absolute;
+          animation: timing 1.6s infinite;
+          animation-timing-function: cubic-bezier(0.88, 0.16, 0.41, 0.91);
+          left: -147px;
+
+        }
+        .pointer-1 {
+          top: -151px;
+        }
+        .pointer-2 {
+          top: -113px;
+        }
+        .pointer-3 {
+          top: -76px;
+        }
+        @keyframes timing {
+          50% {
+            padding-left: 6px;
+          }
+        }
+
+        &:last-child {
+          border: none;
+        }
       }
     }
     &-call-right-now {
@@ -94,14 +128,14 @@
 }
 
 @media only screen and (min-width: 568px) and (max-width: 768px) and (orientation: landscape) {
-  .widget{
+  .widget {
     left: 82%;
     top: 70%;
   }
 }
 
 @media only screen and (min-width: 319px) and (max-width: 370px) and (orientation: portrait) {
-  .widget{
+  .widget {
     left: 65%;
     top: 78%;
   }
