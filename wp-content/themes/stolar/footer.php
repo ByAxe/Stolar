@@ -20,7 +20,7 @@
         <div class="container">
             <div class="row footer-elements">
                 <div class="left">
-                    <span>Copyright © 2015-2016 <a href="http://jobs.tut.by/resume/9aa16e5cff02c103ce0039ed1f6d3065433972">By
+                    <span>Copyright © 2016 <a href="http://jobs.tut.by/resume/9aa16e5cff02c103ce0039ed1f6d3065433972">By
                             Axe</a></span>
                 </div>
                 <div class="right">
@@ -46,6 +46,10 @@
 
 <script src="<?php bloginfo('template_url'); ?>/dist/js/jquery-2.1.4.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/dist/js/jquery.swipebox.js"></script>
+
+<script src="<?php bloginfo('template_url'); ?>/dist/js/validator.js"></script>
+
+<script src="<?php bloginfo('template_url'); ?>/dist/js/touch-swipe.min.js"></script>
 
 <script src="<?php bloginfo('template_url'); ?>/dist/js/script.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/dist/js/bootstrap.min.js"></script>

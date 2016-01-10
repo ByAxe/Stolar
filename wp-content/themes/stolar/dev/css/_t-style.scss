@@ -1,3 +1,7 @@
+::selection {
+  background: #64cc79;
+}
+
 html, body {
   padding: 0;
   margin: 0;
@@ -513,19 +517,23 @@ img {
   float: left;
   margin-left: 10px;
   margin-top: 80px;
-}
 
-.templatemo_clientimage img {
-  width: 80px;
-  height: 80px;
-  border-radius: 150px;
-  -webkit-border-radius: 150px;
-  -moz-border-radius: 150px;
-  @include transition(0.25s);
-}
+  img {
+    width: 80px;
+    height: 80px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    @include transition(0.1s);
 
-.templatemo_clientimage img:hover {
-  border: 3px solid #69a541;
+    &:hover {
+      border: 3px solid #69a541;
+    }
+  }
+  &:hover .templatemo_clientdes {
+    visibility: visible;
+    opacity: 1;
+  }
 }
 
 .templatemo_clientdes {
@@ -538,13 +546,7 @@ img {
   visibility: hidden;
   opacity: 0;
   width: 100%;
-
-}
-
-.templatemo_clientimage:hover .templatemo_clientdes {
-  visibility: visible;
-  opacity: 1;
-
+  @include transition(0.5s);
 }
 
 .templatemo_clientimage div.fa {

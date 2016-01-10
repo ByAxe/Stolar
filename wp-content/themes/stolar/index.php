@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 
-
     <div id="primary" class="content-area">
         <main id="main" class="site-main" role="main">
 
@@ -18,12 +17,27 @@
 
             <?php include "index-components/order-form.php"; ?>
 
-            <?php include "index-components/bottom.php"; ?>
+            <?php include "common-components/bottom.php"; ?>
 
-            <?php include "index-components/widget-phones.php"; ?>
+            <?php include "common-components/widget-phones.php"; ?>
+
+            <?php include "common-components/aside.php"?>
         </main><!-- #main -->
     </div><!-- #primary -->
+
+
 
 <?php
 //get_sidebar();
 get_footer();
+?>
+
+<?php
+if ($_GET['su'] == 't') {
+    print "
+        <script async language='javaScript'>
+            alert('Ваша заявка была успешно доставлена! С вами свяжутся в ближайшее время.')
+        </script>
+    ";
+}
+?>

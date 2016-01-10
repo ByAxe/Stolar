@@ -38,6 +38,7 @@
         position: absolute;
         color: white;
         @include transition(0.5s);
+        animation: phone-animation 9000ms linear infinite both;
       }
 
       &:hover {
@@ -56,28 +57,42 @@
     }
   }
 
+  .active{
+    transform: scale(1);
+  }
   &-info {
-    display: none;
     width: 200px;
     text-align: center;
-    background: #FFF;
     border-radius: 3px 3px 100px;
     margin: -160px 0 0 -155px;
     @include shadow(3);
+    transform: scale(0);
+    transform-origin: 85% 85%;
+    transition: .6s all cubic-bezier(0.19, 1, 0.22, 1);
+    background: #F7F4F4;
+
 
     &-phones {
-      border-bottom: 1px solid #DFDFDF;
       font-size: 1.3em;
-      background: #24AFE5;
+      background: $main-red;
       border-radius: 3px 3px 0 0;
+      @include shadow(1);
 
       &-group {
-        border-bottom: 1px solid white;
+        border-bottom: 1px solid lighten($main-red, 20%);
+        @include transition(0.25s);
 
-        a, p, i {
-          color: #fff !important;
-          font-weight: 300;
+        &:hover{
+          background: darken($main-red, 7%);
         }
+        *{
+          color: white;
+
+          &:hover{
+            color: white;
+          }
+        }
+
         a {
           line-height: 2em;
           padding-left: 23px;
@@ -87,17 +102,17 @@
           position: absolute;
           animation: timing 1.6s infinite;
           animation-timing-function: cubic-bezier(0.88, 0.16, 0.41, 0.91);
-          left: -147px;
+          left: 8px;
 
         }
         .pointer-1 {
-          top: -151px;
+          top: 9px;
         }
         .pointer-2 {
-          top: -113px;
+          top: 47px;
         }
         .pointer-3 {
-          top: -76px;
+          top: 83px;
         }
         @keyframes timing {
           50% {
@@ -139,4 +154,30 @@
     left: 65%;
     top: 78%;
   }
+}
+
+/* Generated with Bounce.js. Edit at http://goo.gl/WmRVF1 */
+@keyframes phone-animation {
+  0% { transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  76.82% { transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  76.92% { transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  77.41% { transform: matrix3d(0.917, 0.399, 0, 0, -0.399, 0.917, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  77.89% { transform: matrix3d(0.851, 0.525, 0, 0, -0.525, 0.851, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  78.47% { transform: matrix3d(0.919, 0.395, 0, 0, -0.395, 0.919, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  79.05% { transform: matrix3d(0.995, 0.096, 0, 0, -0.096, 0.995, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  79.63% { transform: matrix3d(0.986, -0.164, 0, 0, 0.164, 0.986, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  80.2% { transform: matrix3d(0.967, -0.256, 0, 0, 0.256, 0.967, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  80.78% { transform: matrix3d(0.982, -0.188, 0, 0, 0.188, 0.982, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  81.36% { transform: matrix3d(0.999, -0.044, 0, 0, 0.044, 0.999, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  81.94% { transform: matrix3d(0.997, 0.078, 0, 0, -0.078, 0.997, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  82.51% { transform: matrix3d(0.993, 0.121, 0, 0, -0.121, 0.993, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  83.67% { transform: matrix3d(1, 0.02, 0, 0, -0.02, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  84.82% { transform: matrix3d(0.998, -0.057, 0, 0, 0.057, 0.998, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  87.13% { transform: matrix3d(1, 0.026, 0, 0, -0.026, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  89.44% { transform: matrix3d(1, -0.012, 0, 0, 0.012, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  91.75% { transform: matrix3d(1, 0.006, 0, 0, -0.006, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  94.06% { transform: matrix3d(1, -0.003, 0, 0, 0.003, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  96.37% { transform: matrix3d(1, 0.001, 0, 0, -0.001, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  98.68% { transform: matrix3d(1, -0.001, 0, 0, 0.001, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  100% { transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
 }
