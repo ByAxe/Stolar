@@ -21,51 +21,34 @@ Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 *!
 */
-$main-red: #DF314D;
-
+@import "variables";
 @import "mixins";
-/*
-  ---------------------------------------------------------------------------------
-  ---------------------------------------------------------------------------------
-  ---------------------------------------------------------------------------------
-*/
 @import "t-misc";
-/*
-  ---------------------------------------------------------------------------------
-  ---------------------------------------------------------------------------------
-  ---------------------------------------------------------------------------------
-*/
 @import "t-style";
-/*
-  ---------------------------------------------------------------------------------
-  ---------------------------------------------------------------------------------
-  ---------------------------------------------------------------------------------
-*/
 @import "widget";
-/*
-  ---------------------------------------------------------------------------------
-  ---------------------------------------------------------------------------------
-  ---------------------------------------------------------------------------------
-*/
 @import "swipebox";
-
-/*
-  ---------------------------------------------------------------------------------
-  ---------------------------------------------------------------------------------
-  ---------------------------------------------------------------------------------
-*/
-
 @import "aside";
-
-/*
-  ---------------------------------------------------------------------------------
-  ---------------------------------------------------------------------------------
-  ---------------------------------------------------------------------------------
-*/
+@import "profile";
+@import "yamm";
 
 html, body {
   height: 100%;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', Sans-Serif, Serif, fantasy;
+}
+
+a {
+  @include transition(0.35s);
+}
+
+nav {
+  border-bottom: none !important;
+}
+
+article {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .textInSlider h3, .textInSlider p {
@@ -197,13 +180,12 @@ html, body {
 .order-form {
   padding: 35px 0;
 
-
   legend {
     text-align: center !important;
     font-size: 2.5em !important;
     font-weight: 300;
   }
-  p{
+  p {
     color: #333;
   }
   .form-horizontal .form-group {
@@ -223,12 +205,12 @@ html, body {
         border-bottom: 2px solid #4f9ddc;
       }
     }
-    input[plaseholder]{
+    input[plaseholder] {
       color: #858585 !important;
-      opacity:1;
+      opacity: 1;
       transition: 0.3s ease;
 
-      &:focus{
+      &:focus {
         opacity: 0;
         transition: 0.3s ease;
       }
@@ -253,18 +235,6 @@ html, body {
 .list-group-item {
   border: none;
   font-size: 2.5em;
-}
-
-.codrops-header > h1 {
-  opacity: 0;
-  transition: all 0.5s ease-in-out;
-  transform: translateX(40px)
-}
-
-.codrops-header span {
-  opacity: 0;
-  transition: all 0.5s ease-in-out;
-  transform: translateX(-40px)
 }
 
 .margin-bottom {
@@ -329,26 +299,6 @@ fieldset {
   -webkit-animation: animation-button 2000ms linear both;
   animation: animation-button 2000ms linear both;
 
-}
-
-.open > .dropdown-menu {
-  min-width: 100% !important;
-  -webkit-transform: scale(1, 1);
-  transform: scale(1, 1);
-  opacity: 1;
-}
-
-.dropdown-menu {
-  background-color: #F3EFE0;
-  opacity: .3;
-  -webkit-transform-origin: top;
-  transform-origin: top;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-transform: scale(1, 0);
-  display: block;
-  transition: all 0.4s linear;
-  -webkit-transition: all 0.4s linear;
 }
 
 .category-header {
@@ -435,7 +385,7 @@ fieldset {
 }
 
 .lbLoading {
-  background: #fff url(../images/loading.gif) no-repeat center;
+  background: #fff url(#{$path-to-images}/loading.gif) no-repeat center;
 }
 
 #lbImage {
@@ -459,7 +409,7 @@ fieldset {
 }
 
 #lbPrevLink:hover {
-  background: transparent url(../images/prevlabel.gif) no-repeat 0 15%;
+  background: transparent url(#{$path-to-images}/prevlabel.gif) no-repeat 0 15%;
 }
 
 #lbNextLink {
@@ -467,7 +417,7 @@ fieldset {
 }
 
 #lbNextLink:hover {
-  background: transparent url(../images/nextlabel.gif) no-repeat 100% 15%;
+  background: transparent url(#{$path-to-images}/nextlabel.gif) no-repeat 100% 15%;
 }
 
 #lbBottom {
@@ -484,7 +434,7 @@ fieldset {
   float: right;
   width: 66px;
   height: 22px;
-  background: transparent url(../images/closelabel.gif) no-repeat center;
+  background: transparent url(#{$path-to-images}/closelabel.gif) no-repeat center;
   margin: 5px 0;
   outline: none;
 }
@@ -531,24 +481,24 @@ fieldset {
   }
 
   &-primary {
-    background-color: #48A770;
+    background-color: $main-green;
     border: none;
 
     &:hover {
-      background-color: #47945e;
+      background-color: darken($main-green, 5%);
       border: none;
     }
     &:focus {
-      background-color: #0e9610;
+      background-color: lighten($main-green, 5%);
       border: none;
     }
   }
   &-info {
     border: none;
-    background: #47B26E;
+    background: lighten($main-green, 12%);
 
     &:hover {
-      background: #47B26E;
+      background: lighten($main-green, 5%);
     }
   }
 }
@@ -625,12 +575,10 @@ fieldset {
 
 .navbar-static-top {
   z-index: 5 !important;
-  a{
+
+  li {
     @include transition(0.35s);
-  }
-  li{
-    @include transition(0.35s);
-    &:hover{
+    &:hover {
       background-color: rgba(0, 0, 0, 0.82) !important;
       cursor: pointer !important;
     }
@@ -639,4 +587,31 @@ fieldset {
 
 div#jivo-iframe-container {
   z-index: 10 !important;
+}
+
+.breadcrumb {
+  @include shadow(1);
+  border-radius: 0 3px;
+  font-weight: 300;
+
+  a {
+    @include transition(0.2s);
+    &:hover {
+      color: darken($main-green, 50%);
+      font-weight: 500;
+    }
+  }
+}
+
+footer {
+  @include shadow(2);
+  span {
+    color: white;
+  }
+  a {
+    color: lighten($main-green, 20%);
+    &:hover {
+      color: lighten($main-green, 5%);
+    }
+  }
 }

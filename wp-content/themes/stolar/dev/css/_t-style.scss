@@ -159,20 +159,20 @@ img {
   color: #202224;
   float: left;
   margin-bottom: -10px;
-  -webkit-box-shadow: 1px 3px 13px 0px rgba(158, 158, 158, 0.75);
-  -moz-box-shadow: 1px 3px 13px 0px rgba(158, 158, 158, 0.75);
-  box-shadow: 1px 3px 13px 0px rgba(158, 158, 158, 0.75);
+  -webkit-box-shadow: 1px 3px 13px 0 rgba(158, 158, 158, 0.75);
+  -moz-box-shadow: 1px 3px 13px 0 rgba(158, 158, 158, 0.75);
+  box-shadow: 1px 3px 13px 0 rgba(158, 158, 158, 0.75);
 }
 
 .templatemo_lightgrey_about {
   background-color: #f3efe0 !important;
-  padding: 60px 0px 50px 0px;
+  padding: 60px 0 50px 0;
 
 }
 
 .templatemo_lightgrey {
   background-color: #f3efe0 !important;
-  padding: 70px 0px;
+  padding: 70px 0;
 
 }
 
@@ -184,14 +184,13 @@ img {
 .templatemo_about_box {
   background-color: white;
   border-radius: 5px;
-  padding: 20px 0px;
+  padding: 20px 0;
   text-align: center;
 }
 
 .square_coner {
-  margin: 0 auto;
   width: 100px;
-  margin-bottom: 20px;
+  margin: 0 auto 20px;
 
 }
 
@@ -200,7 +199,7 @@ img {
   vertical-align: middle;
   text-align: center;
   padding: 20px 30px;
-  background: #48a770;
+  background: $main-green;
   border-radius: 5px;
   font-size: 32px;
   color: #ffffff;
@@ -213,7 +212,7 @@ img {
   width: 92%;
   height: 100%;
   border-radius: 5px;
-  background: #48a770;
+  background: $main-green;
   visibility: hidden;
   opacity: 0;
   transition: all 0.25s ease-in-out;
@@ -243,9 +242,8 @@ img {
 }
 
 .templatemo_reasonbg {
-  background-color: #333536;
-  background-position: center;
-  padding: 30px 0px 70px 0px;
+  background: #333536 center;
+  padding: 30px 0 70px 0;
   color: #ffffff;
   text-align: center;
 }
@@ -261,7 +259,7 @@ img {
 }
 
 .templatemo_portfolio {
-  padding: 40px 0px;
+  padding: 40px 0;
   text-align: center;
   background-color: #f3efe0;
 }
@@ -287,7 +285,7 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #48a770;
+  background-color: $main-green;
   visibility: hidden;
   opacity: 0;
   -webkit-transition: all 0.2s ease-in-out;
@@ -314,8 +312,8 @@ img {
 }
 
 .portfolio-thumb .overlay-p a ul li {
-  padding: 0.2em 0em;
-  margin: 0px;
+  padding: 0.2em 0;
+  margin: 0;
   width: 100%;
   list-style: none;
 }
@@ -372,7 +370,7 @@ img {
 .templatemo_blog {
   width: 100%;
   background: #333537;
-  padding: 40px 0px;
+  padding: 40px 0;
   color: #ffffff;
   text-align: center;
 }
@@ -389,7 +387,7 @@ img {
   padding: 8px;
   background: #c6cfd3;
   color: #ffffff;
-  margin: 0px;
+  margin: 0;
   text-align: left;
   float: left;
   font-size: 18px;
@@ -420,7 +418,7 @@ img {
 }
 
 .templatemo_wrapperblogbox .tooltip1:hover:after {
-  left: 0px;
+  left: 0;
 }
 
 .templatemo_wrapperblogbox .tooltip2:hover:after {
@@ -466,7 +464,7 @@ img {
 }
 
 .templatemo_partner {
-  padding: 80px 0px;
+  padding: 80px 0;
 }
 
 #prev {
@@ -476,7 +474,7 @@ img {
   top: -30%;
   left: 0;
   text-indent: -9999px;
-  background: url(../images/prev.png) 0px -50px no-repeat;
+  background: url(#{$path-to-images}/prev.png) 0px -50px no-repeat;
 }
 
 #next {
@@ -486,11 +484,11 @@ img {
   top: -30%;
   right: 0;
   text-indent: -9999px;
-  background: url(../images/next.png) 0px -50px no-repeat;
+  background: url(#{$path-to-images}/next.png) 0px -50px no-repeat;
 }
 
 #prev:hover, #next:hover {
-  background-position: 0px 0px;
+  background-position: 0 0;
 }
 
 .partnerWrap {
@@ -588,7 +586,6 @@ img {
 
 .fluid-wrapper {
   position: relative;
-  /* padding-bottom: 56.25%;  16:9 */
   height: 0;
 }
 
@@ -623,19 +620,19 @@ img {
 }
 
 .templatemo_footer {
-  padding: 40px 0px;
+  padding: 40px 0;
   background-color: white;
 }
 
 .templatemo_footer ul {
   float: left;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 .templatemo_footer ul li {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -667,7 +664,7 @@ img {
 }
 
 .templatemo_footer .col-xs-1 {
-  padding: 0px;
+  padding: 0;
 }
 
 .templatemo_footer .col-xs-11 {
@@ -714,7 +711,7 @@ img {
 #templatemo_flicker.ddsmoothmenu ul li a {
   width: 55px;
   height: 55px;
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 ul.nobullet {
@@ -769,7 +766,7 @@ ul.footer_gallery li img {
     font-size: 8px;
   }
   #top-menu li a {
-    padding: 0px;
+    padding: 0;
   }
   #top-menu li.active a {
     color: #ffffff;
@@ -814,7 +811,7 @@ ul.footer_gallery li img {
 
 @media(max-width: 767px) {
   .templatemo_col9 {
-    padding: 0px;
+    padding: 0;
   }
   .templatemo_slider {
     top: 130px;
@@ -885,7 +882,7 @@ ul.footer_gallery li img {
   .imgWrp:hover {
     height: 220px;
     opacity: 1;
-    margin-top: 0px;
+    margin-top: 0;
   }
   .txtarea {
     margin: 20px 0;
@@ -909,10 +906,10 @@ ul.footer_gallery li img {
   .imgWrp:hover {
     height: 160px;
     opacity: 1;
-    margin-top: 0px;
+    margin-top: 0;
   }
   .txtarea {
-    margin: 20px 0px;
+    margin: 20px 0;
   }
   #box-img_testimonial a {
     width: 40px;

@@ -99,4 +99,6 @@ images/
 *.png
 *.gif
 
+ai1wm-backups/
+
 lightbox2-master/

@@ -52,6 +52,13 @@
 <script src="<?php bloginfo('template_url'); ?>/dist/js/touch-swipe.min.js"></script>
 
 <script src="<?php bloginfo('template_url'); ?>/dist/js/script.js"></script>
+
+<script src="<?php bloginfo('template_url'); ?>/dist/js/components/aside-menu/button.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/dist/js/components/aside-menu/button-mobile.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/dist/js/components/aside-menu/swiping.js"></script>
+
+<script src="<?php bloginfo('template_url'); ?>/dist/js/components/dynamic-call.js"></script>
+
 <script src="<?php bloginfo('template_url'); ?>/dist/js/bootstrap.min.js"></script>
 
 <!-- BEGIN JIVOSITE CODE {literal} -->

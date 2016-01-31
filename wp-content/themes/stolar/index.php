@@ -20,8 +20,6 @@
             <?php include "common-components/bottom.php"; ?>
 
             <?php include "common-components/widget-phones.php"; ?>
-
-            <?php include "common-components/aside.php"?>
         </main><!-- #main -->
     </div><!-- #primary -->
 

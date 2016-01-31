@@ -49,30 +49,7 @@
 <div id="page" class="site">
 
     <header>
-        <nav class="navbar navbar-inverse navbar-static-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
-                        <span class="sr-only">Open Navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>/"><i class="fa fa-home fa-fw"></i>&nbsp; Столяр.by</a>
-                </div>
-                <div class="collapse navbar-collapse" id="responsive-menu">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="<?php echo esc_url(home_url('/')); ?>/">Главная</a></li>
-                        <li><a href="<?php echo esc_url(home_url('/')); ?>/profile">Выполняемые работы</a></li>
-                        <li><a href="<?php echo esc_url(home_url('/')); ?>/gallery">Галерея</a></li>
-                        <li><a href="<?php echo esc_url(home_url('/')); ?>/achievements">Наши Преимущества</a></li>
-                        <li><a href="<?php echo esc_url(home_url('/')); ?>/contacts">Контакты</a></li>
-                        <li><a href="<?php echo esc_url(home_url('/')); ?>/order-form">Форма заказа</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
+        <?php include "common-components/main-navigation.php"; ?>
     </header>
 
     <div id="content" class="site-content">

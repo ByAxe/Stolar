@@ -1,4 +1,3 @@
-<a href="#">
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-pause="hover"
          data-interval="5000">
         <!-- Указатели -->
@@ -95,4 +94,3 @@
             <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
     </div>
-</a>

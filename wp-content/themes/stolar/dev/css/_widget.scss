@@ -1,8 +1,16 @@
+.hidden {
+  opacity: 0 !important;
+}
+.hard-hidden{
+  display: none;
+}
+
 .widget {
   position: fixed;
   user-select: none;
   left: 82%;
   top: 85%;
+  @include transition(0.25s);
 
   &-icon {
     visibility: visible;
@@ -15,7 +23,7 @@
       width: 90px;
       height: 90px;
       transition: all .4s cubic-bezier(.19, 1, .22, 1);
-      background: rgba(0, 175, 242, 0.81);
+      background: rgba(30, 136, 229, 0.8);
       border-radius: 50%;
       @include shadow(1);
       cursor: pointer;
@@ -74,16 +82,16 @@
 
     &-phones {
       font-size: 1.3em;
-      background: $main-red;
+      background: $main-blue;
       border-radius: 3px 3px 0 0;
       @include shadow(1);
 
       &-group {
-        border-bottom: 1px solid lighten($main-red, 20%);
+        border-bottom: 1px solid lighten($main-blue, 20%);
         @include transition(0.25s);
 
         &:hover{
-          background: darken($main-red, 7%);
+          background: darken($main-blue, 7%);
         }
         *{
           color: white;

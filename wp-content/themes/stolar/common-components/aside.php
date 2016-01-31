@@ -1,4 +1,4 @@
-<section>
+<section class="left-navigation">
     <aside>
         <ul>
             <li>
@@ -18,7 +18,7 @@
             </li>
         </ul>
 
-        <div class="hint-wrapper">
+        <div class="hint-wrapper visible-xs">
             <div class="hint">
                 <div class="hint-arrow">
                     <i class="fa fa-long-arrow-left"></i>
@@ -33,8 +33,8 @@
 
 <div class="swipe-area"></div>
 
-<div class="wrapper">
-    <div class="toggle" id="toggle" data-side=".site-content">
+<div class="wrapper-aside-button">
+    <div class="toggle" id="toggle" data-side=".left-navigation">
         <div class="icons-pull-left">
             <div class="arrow">
                 <img src="http://i683.photobucket.com/albums/vv193/silvacristina_/C7OQTht_zpscfkm1hge.png" class="out">
