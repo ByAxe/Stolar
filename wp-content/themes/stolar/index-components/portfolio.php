@@ -7,17 +7,17 @@
             <div class="portfolio-item">
                 <div class="portfolio-thumb">
                     <a rel="gallery-1"
-                       href="<?php bloginfo('template_url'); ?>/images/portfolio/1.png"
+                       href="<?php bloginfo('template_url'); ?>/images/index/portfolio/full/potolok.png"
                        class="swipebox"
                        title="My Caption">
 
-                        <img src="<?php bloginfo('template_url'); ?>/images/portfolio/1.png" alt="portfolio 1">
+                        <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/potolok.png" alt="portfolio 1">
 
                     </a>
                 </div> <!-- /.portfolio-thumb -->
                 <div class="portfolio-text">
                     <div class="portfolio-text-headline">
-                        Lorem ipsum dolor
+                        Натяжные потолки
                     </div>
                     <div class="portfolio-text-description">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque obcaecati, possimus quasi rerum
@@ -31,17 +31,17 @@
             <div class="portfolio-item">
                 <div class="portfolio-thumb">
                     <a rel="gallery-1"
-                       href="<?php bloginfo('template_url'); ?>/images/portfolio/2.png"
+                       href="<?php bloginfo('template_url'); ?>/images/index/portfolio/full/homeAndVillage.png"
                        class="swipebox"
                        title="My Caption">
 
-                        <img src="<?php bloginfo('template_url'); ?>/images/portfolio/2.png" alt="portfolio 2">
+                        <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/homeAndVillage.png" alt="portfolio 2">
 
                     </a>
                 </div> <!-- /.portfolio-thumb -->
                                 <div class="portfolio-text">
                     <div class="portfolio-text-headline">
-                        Lorem ipsum dolor
+                        Дом и дача
                     </div>
                     <div class="portfolio-text-description">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque obcaecati, possimus quasi rerum
@@ -55,17 +55,17 @@
             <div class="portfolio-item">
                 <div class="portfolio-thumb">
                     <a rel="gallery-1"
-                       href="<?php bloginfo('template_url'); ?>/images/portfolio/3.png"
+                       href="<?php bloginfo('template_url'); ?>/images/index/portfolio/full/otdelka.png"
                        class="swipebox"
                        title="My Caption">
 
-                        <img src="<?php bloginfo('template_url'); ?>/images/portfolio/3.png" alt="portfolio 3">
+                        <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/otdelka.png" alt="portfolio 3">
 
                     </a>
                 </div> <!-- /.portfolio-thumb -->
                                 <div class="portfolio-text">
                     <div class="portfolio-text-headline">
-                        Lorem ipsum dolor
+                        Отделка
                     </div>
                     <div class="portfolio-text-description">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque obcaecati, possimus quasi rerum
@@ -79,11 +79,11 @@
             <div class="portfolio-item">
                 <div class="portfolio-thumb">
                     <a rel="gallery-1"
-                       href="<?php bloginfo('template_url'); ?>/images/portfolio/4.png"
+                       href="<?php bloginfo('template_url'); ?>/images/index/portfolio/full/temp.png"
                        class="swipebox"
                        title="My Caption">
 
-                        <img src="<?php bloginfo('template_url'); ?>/images/portfolio/4.png" alt="portfolio 4">
+                        <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/temp.png" alt="portfolio 4">
 
                     </a>
                 </div> <!-- /.portfolio-thumb -->
@@ -106,17 +106,17 @@
             <div class="portfolio-item">
                 <div class="portfolio-thumb">
                     <a rel="gallery-1"
-                       href="<?php bloginfo('template_url'); ?>/images/portfolio/5.png"
+                       href="<?php bloginfo('template_url'); ?>/images/index/portfolio/full/lestnica.png"
                        class="swipebox"
                        title="My Caption">
 
-                        <img src="<?php bloginfo('template_url'); ?>/images/portfolio/5.png" alt="portfolio 5">
+                        <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/lestnica.png" alt="portfolio 5">
 
                     </a>
                 </div> <!-- /.portfolio-thumb -->
                                 <div class="portfolio-text">
                     <div class="portfolio-text-headline">
-                        Lorem ipsum dolor
+                        Лестницы
                     </div>
                     <div class="portfolio-text-description">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque obcaecati, possimus quasi rerum
@@ -130,17 +130,17 @@
             <div class="portfolio-item">
                 <div class="portfolio-thumb">
                     <a rel="gallery-1"
-                       href="<?php bloginfo('template_url'); ?>/images/portfolio/6.png"
+                       href="<?php bloginfo('template_url'); ?>/images/index/portfolio/full/antresoli.png"
                        class="swipebox"
                        title="My Caption">
 
-                        <img src="<?php bloginfo('template_url'); ?>/images/portfolio/6.png" alt="portfolio 6">
+                        <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/antresoli.png" alt="portfolio 6">
 
                     </a>
                 </div> <!-- /.portfolio-thumb -->
                                 <div class="portfolio-text">
                     <div class="portfolio-text-headline">
-                        Lorem ipsum dolor
+                        Антресоли
                     </div>
                     <div class="portfolio-text-description">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque obcaecati, possimus quasi rerum
@@ -154,17 +154,17 @@
             <div class="portfolio-item">
                 <div class="portfolio-thumb">
                     <a rel="gallery-1"
-                       href="<?php bloginfo('template_url'); ?>/images/portfolio/7.png"
+                       href="<?php bloginfo('template_url'); ?>/images/index/portfolio/full/temp.png"
                        class="swipebox"
                        title="My Caption">
 
-                        <img src="<?php bloginfo('template_url'); ?>/images/portfolio/7.png" alt="portfolio 7">
+                        <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/temp.png" alt="portfolio 7">
 
                     </a>
                 </div> <!-- /.portfolio-thumb -->
                                 <div class="portfolio-text">
                     <div class="portfolio-text-headline">
-                        Lorem ipsum dolor
+                        Окна Двери и Откосы
                     </div>
                     <div class="portfolio-text-description">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque obcaecati, possimus quasi rerum
@@ -178,11 +178,11 @@
             <div class="portfolio-item">
                 <div class="portfolio-thumb">
                     <a rel="gallery-1"
-                       href="<?php bloginfo('template_url'); ?>/images/portfolio/8.png"
+                       href="<?php bloginfo('template_url'); ?>/images/index/portfolio/full/temp.png"
                        class="swipebox"
                        title="My Caption">
 
-                        <img src="<?php bloginfo('template_url'); ?>/images/portfolio/8.png" alt="portfolio 8">
+                        <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/temp.png" alt="portfolio 8">
 
                     </a>
                 </div> <!-- /.portfolio-thumb -->

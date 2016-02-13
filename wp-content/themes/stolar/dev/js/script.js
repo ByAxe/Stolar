@@ -18,7 +18,6 @@ jQuery(document).ready(function () {
     $('#phone').mask("8-(099)-999-99-99");
     /*-------------------PHONE MASK------------------------------------*/
 
-
     /*-------------------SHOW ASIDE MENU ONLY ON PROFILE/* ------------*/
     /*TODO Why it doesn't work? */
 

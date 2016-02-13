@@ -94,11 +94,6 @@ wp-content/plugins/hello.php
 /readme.html
 /license.txt
 
-images/
-*.jpg
-*.png
-*.gif
+raw/*
 
-ai1wm-backups/
-
-lightbox2-master/
+ai1wm-backups/*

@@ -17,93 +17,93 @@
             <div id="templatemo_flicker">
                 <ul class="nobullet footer_gallery">
                     <li>
-                        <a href="<?php bloginfo('template_url'); ?>/images/portfolio/1.png"
-                           rel="gallery-2"
+                        <a rel="gallery-2"
+                           href="<?php bloginfo('template_url'); ?>/images/index/portfolio/full/potolok.png"
                            class="swipebox"
                            title="My Caption">
-                            <img
-                                src="<?php bloginfo('template_url'); ?>/images/portfolio/1.png"
-                                alt="image 1"/>
+
+                            <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/potolok.png" alt="portfolio 1">
+
                         </a>
                     </li>
                     <li>
-                        <a href="<?php bloginfo('template_url'); ?>/images/portfolio/2.png"
-                           rel="gallery-2"
+                        <a rel="gallery-2"
+                           href="<?php bloginfo('template_url'); ?>/images/index/portfolio/full/homeAndVillage.png"
                            class="swipebox"
                            title="My Caption">
-                            <img
-                                src="<?php bloginfo('template_url'); ?>/images/portfolio/2.png"
-                                alt="image 2"/>
+
+                            <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/homeAndVillage.png" alt="portfolio 2">
+
                         </a>
                     </li>
                     <li>
-                        <a href="<?php bloginfo('template_url'); ?>/images/portfolio/3.png"
-                           rel="gallery-2"
+                        <a rel="gallery-2"
+                           href="<?php bloginfo('template_url'); ?>/images/index/portfolio/full/otdelka.png"
                            class="swipebox"
                            title="My Caption">
-                            <img
-                                src="<?php bloginfo('template_url'); ?>/images/portfolio/3.png"
-                                alt="image 3"/>
+
+                            <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/otdelka.png" alt="portfolio 3">
+
                         </a>
                     </li>
                     <li>
-                        <a href="<?php bloginfo('template_url'); ?>/images/portfolio/4.png"
-                           rel="gallery-2"
+                        <a rel="gallery-2"
+                           href="<?php bloginfo('template_url'); ?>/images/index/portfolio/full/temp.png"
                            class="swipebox"
                            title="My Caption">
-                            <img
-                                src="<?php bloginfo('template_url'); ?>/images/portfolio/4.png"
-                                alt="image 4"/>
+
+                            <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/temp.png" alt="portfolio 4">
+
                         </a>
                     </li>
                     <li>
-                        <a href="<?php bloginfo('template_url'); ?>/images/portfolio/5.png"
-                           rel="gallery-2"
+                        <a rel="gallery-2"
+                           href="<?php bloginfo('template_url'); ?>/images/index/portfolio/full/lestnica.png"
                            class="swipebox"
                            title="My Caption">
-                            <img
-                                src="<?php bloginfo('template_url'); ?>/images/portfolio/5.png"
-                                alt="image 5"/>
+
+                            <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/lestnica.png" alt="portfolio 5">
+
                         </a>
                     </li>
                     <li>
-                        <a href="<?php bloginfo('template_url'); ?>/images/portfolio/6.png"
-                           rel="gallery-2"
+                        <a rel="gallery-2"
+                           href="<?php bloginfo('template_url'); ?>/images/index/portfolio/full/antresoli.png"
                            class="swipebox"
                            title="My Caption">
-                            <img
-                                src="<?php bloginfo('template_url'); ?>/images/portfolio/6.png"
-                                alt="image 6"/>
+
+                            <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/antresoli.png" alt="portfolio 6">
+
                         </a>
                     </li>
                     <li>
-                        <a href="<?php bloginfo('template_url'); ?>/images/portfolio/7.png"
-                           rel="gallery-2"
+                        <a rel="gallery-2"
+                           href="<?php bloginfo('template_url'); ?>/images/index/portfolio/full/temp.png"
                            class="swipebox"
                            title="My Caption">
-                            <img
-                                src="<?php bloginfo('template_url'); ?>/images/portfolio/7.png"
-                                alt="image 7"/>
+
+                            <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/temp.png" alt="portfolio 7">
+
+                        </a>                    </li>
+                    <li>
+                        <a rel="gallery-2"
+                           href="<?php bloginfo('template_url'); ?>/images/index/portfolio/full/temp.png"
+                           class="swipebox"
+                           title="My Caption">
+
+                            <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/temp.png" alt="portfolio 8">
+
                         </a>
+
                     </li>
                     <li>
-                        <a href="<?php bloginfo('template_url'); ?>/images/portfolio/8.png"
-                           rel="gallery-2"
+                        <a rel="gallery-2"
+                           href="<?php bloginfo('template_url'); ?>/images/index/portfolio/full/temp.png"
                            class="swipebox"
                            title="My Caption">
-                            <img
-                                src="<?php bloginfo('template_url'); ?>/images/portfolio/8.png"
-                                alt="image 8"/>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="<?php bloginfo('template_url'); ?>/images/portfolio/8.png"
-                           rel="gallery-2"
-                           class="swipebox"
-                           title="My Caption">
-                            <img
-                                src="<?php bloginfo('template_url'); ?>/images/portfolio/8.png"
-                                alt="image 8"/>
+
+                            <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/temp.png" alt="portfolio 8">
+
                         </a>
                     </li>
                 </ul>

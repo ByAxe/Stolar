@@ -1371,7 +1371,7 @@ class WP_Press_This {
 
 		?>
 
-	<div class="wrapper-aside-button">
+	<div class="wrapper">
 		<div class="editor-wrapper">
 			<div class="alerts" role="alert" aria-live="assertive" aria-relevant="all" aria-atomic="true">
 				<?php
