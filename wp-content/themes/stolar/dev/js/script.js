@@ -1,4 +1,3 @@
-
 jQuery(document).ready(function () {
     /*-------------------WIDGET-PHONE ANIMATION------------------------*/
     var widget = $('.widget-info');
@@ -22,13 +21,12 @@ jQuery(document).ready(function () {
 
     /*-------------------SHOW ASIDE MENU ONLY ON PROFILE/* ------------*/
     /*TODO Why it doesn't work? */
-    /*    var currentUrl = window.location.href;
 
-     if (currentUrl.search(/.profile\//) !== -1) { // Проверка на нахождение profile/!* в URL
-     $(document.getElementsByTagName("section")).toggleClass("hard-hidden");
-     $(".swipe-area").toggleClass("hard-hidden");
-     $(wrapperNavButton).toggleClass("hard-hidden");
-     }*/
+    if (window.location.href.search(/.profile\.*?/) === -1) { // Проверка на нахождение profile/* в URL
+        $(document.getElementsByTagName("section")).toggleClass("hard-hidden");
+        $(".swipe-area").toggleClass("hidden");
+        $(".wrapper-aside-button").toggleClass("hidden");
+    }
     /*-------------------SHOW ASIDE MENU ONLY ON PROFILE/* ------------*/
 
 });

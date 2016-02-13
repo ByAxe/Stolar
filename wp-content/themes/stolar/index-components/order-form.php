@@ -67,7 +67,7 @@
 
                 <!-- Button -->
                 <button type="submit"
-                        class="btn btn-info btn-lg col-xs-12 col-md-6 col-md-offset-3 paddingToFooter">
+                        class="btn btn-primary btn-lg col-xs-12 col-md-6 col-md-offset-3 paddingToFooter">
                     Отправить заявку!
                 </button>
             </fieldset>

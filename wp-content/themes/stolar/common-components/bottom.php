@@ -1,12 +1,6 @@
 <div class="templatemo_footer">
     <div class="container">
-        <div class="col-xs-6 col-sm-6 col-md-3 templatemo_col12">
-            <h2>Кратко о нас</h2>
-            <p>Мы выполняем строительные работы любой сложности: Потолки, Стены, Полы, утепление... Постройка бань,
-                гаражей, дач, туалетов и т.д. Атресоли, шкафы и другая мебель. Окна и Балконы, Двери и Диваны - это наш
-                профиль.</p>
-        </div>
-        <div class="col-xs-6 col-sm-6 col-md-3 templatemo_col12">
+        <div class="col-xs-6 col-sm-6 col-md-4 templatemo_col12">
             <h2>Услуги</h2>
             <ul>
                 <li><a href="#">Лестницы</a></li>
@@ -18,7 +12,7 @@
             <div class="clear"></div>
             <div class="templatemo_morelink"><a href="#">И многое другое... </a></div>
         </div>
-        <div class="col-xs-6 col-sm-6 col-md-3 templatemo_col12">
+        <div class="col-xs-6 col-sm-6 col-md-4 templatemo_col12">
             <h2>Галерея</h2>
             <div id="templatemo_flicker">
                 <ul class="nobullet footer_gallery">
@@ -116,7 +110,7 @@
                 <br style="clear: left"/>
             </div>
         </div>
-        <div class="col-xs-6 col-sm-6 col-md-3 templatemo_col12">
+        <div class="col-xs-12 col-sm-12 col-md-4 templatemo_col12">
             <h2>Контакты</h2>
 
             <span class="left col-xs-1 fa fa-phone special-offset"></span>

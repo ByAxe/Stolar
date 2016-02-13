@@ -24,6 +24,8 @@
   // by default aligns menu to left
   .dropdown-menu {
     left: auto;
+    @include transition(0.25s);
+    @include shadow(2);
   }
 
   // Content with padding
@@ -36,4 +38,8 @@
     left: 0; right: 0;
   }
 
+}
+
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+  display: block;
 }
