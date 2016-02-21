@@ -59,6 +59,10 @@
 
 <script src="<?php bloginfo('template_url'); ?>/dist/js/components/dynamic-call.js"></script>
 
+<script src="<?php bloginfo('template_url'); ?>/dist/js/typed.min.js"></script>
+
+<script src="<?php bloginfo('template_url'); ?>/dist/js/components/standalone.js"></script>
+
 <script src="<?php bloginfo('template_url'); ?>/dist/js/bootstrap.min.js"></script>
 
 <!-- BEGIN JIVOSITE CODE {literal} -->
@@ -73,6 +77,80 @@
         ss.parentNode.insertBefore(s, ss);
     })();</script>
 <!-- {/literal} END JIVOSITE CODE -->
+
+<!--<div class="flex contacts">
+    <div class="row">
+        <div class="container">
+            <div class="col-md-8 col-md-offset-2 contacts-form">
+                <div class="col-md-3">
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="row contacts-form-left">
+                            <p>Напишите нам!</p>
+                        </div>
+
+                        <div class="row contacts-form-left">
+                            <p>Напишите нам!</p>
+                        </div>
+
+                        <div class="row contacts-form-left">
+                            <p>Напишите нам!</p>
+                        </div>
+                        <div class="row contacts-form-left">
+                            <p>Напишите нам!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="contacts-form-headline">
+
+                    </div>
+                    <div class="contacts-form-information">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>Lorem ipsum dolor.</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Lorem ipsum dolor.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>Lorem ipsum dolor.</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Lorem ipsum dolor.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>Lorem ipsum dolor.</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Lorem ipsum dolor.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>Lorem ipsum dolor.</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Lorem ipsum dolor.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>Lorem ipsum dolor.</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Lorem ipsum dolor.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>-->
 
 </body>
 </html>

@@ -1,0 +1,28 @@
+article {
+  background-color: lighten($main-gray, 5%);
+  div {
+    color: #333;
+  }
+  h1 {
+    font-weight: 500;
+  }
+
+  .contacts{
+
+    &-form{
+
+      &-left{
+
+      }
+
+      &-headline{
+
+      }
+
+      &-information{
+
+      }
+    }
+  }
+
+}

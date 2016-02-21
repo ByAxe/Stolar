@@ -2,7 +2,7 @@
     <aside>
         <ul>
             <li>
-                <a href="#">Антресоли</a>
+                <a href="<?php echo esc_url(home_url('/')); ?>/profile/antresoli">Антресоли</a>
             </li>
             <li>
                 <a href="#">Шкафы</a>

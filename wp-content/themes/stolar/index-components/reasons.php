@@ -6,5 +6,5 @@
     <div class="fa fa-tablet"></div>
     <div class="fa fa-lock"></div>
     <div class="clear height20"></div>
-    <a class="btn btn-large btn-primary" href="#">Узнайте больше</a>
+    <a class="btn btn-lg btn-primary" href="#">Узнайте больше</a>
 </div>

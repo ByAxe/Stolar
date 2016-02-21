@@ -20,8 +20,7 @@
                         Натяжные потолки
                     </div>
                     <div class="portfolio-text-description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque obcaecati, possimus quasi rerum
-                        sapiente sunt.
+                        Самый быстрый надёжный и доступный способ придать потолку незабываемый вид.
                     </div>
                 </div>
             </div>
@@ -44,8 +43,7 @@
                         Дом и дача
                     </div>
                     <div class="portfolio-text-description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque obcaecati, possimus quasi rerum
-                        sapiente sunt.
+                        Все виды работ от фундамента до кровли.
                     </div>
                 </div>
             </div>
@@ -68,8 +66,7 @@
                         Отделка
                     </div>
                     <div class="portfolio-text-description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque obcaecati, possimus quasi rerum
-                        sapiente sunt.
+                        Выполним  дизайн проект любой сложности.
                     </div>
                 </div>
             </div>
@@ -79,21 +76,20 @@
             <div class="portfolio-item">
                 <div class="portfolio-thumb">
                     <a rel="gallery-1"
-                       href="<?php bloginfo('template_url'); ?>/images/index/portfolio/full/temp.png"
+                       href="<?php bloginfo('template_url'); ?>/images/index/portfolio/full/balcony.png"
                        class="swipebox"
                        title="My Caption">
 
-                        <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/temp.png" alt="portfolio 4">
+                        <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/balcony.png" alt="portfolio 4">
 
                     </a>
                 </div> <!-- /.portfolio-thumb -->
                                 <div class="portfolio-text">
                     <div class="portfolio-text-headline">
-                        Lorem ipsum dolor
+                        Балконы
                     </div>
                     <div class="portfolio-text-description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque obcaecati, possimus quasi rerum
-                        sapiente sunt.
+                        Сделайте  балкон полноценной частью квартиры.
                     </div>
                 </div>
             </div>
@@ -119,8 +115,7 @@
                         Лестницы
                     </div>
                     <div class="portfolio-text-description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque obcaecati, possimus quasi rerum
-                        sapiente sunt.
+                        Ваша лестница будет прочной как железобетон и выглядеть как дорогая мебель.
                     </div>
                 </div>
             </div>
@@ -143,8 +138,7 @@
                         Антресоли
                     </div>
                     <div class="portfolio-text-description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque obcaecati, possimus quasi rerum
-                        sapiente sunt.
+                        Не мы придумали антресоль, но мы знаем как изготовить её качественно и красиво.
                     </div>
                 </div>
             </div>
@@ -167,8 +161,7 @@
                         Окна Двери и Откосы
                     </div>
                     <div class="portfolio-text-description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque obcaecati, possimus quasi rerum
-                        sapiente sunt.
+                        Правильный монтаж – залог долгой качественной эксплуатации.
                     </div>
                 </div>
             </div>
@@ -178,21 +171,20 @@
             <div class="portfolio-item">
                 <div class="portfolio-thumb">
                     <a rel="gallery-1"
-                       href="<?php bloginfo('template_url'); ?>/images/index/portfolio/full/temp.png"
+                       href="<?php bloginfo('template_url'); ?>/images/index/portfolio/full/light.png"
                        class="swipebox"
                        title="My Caption">
 
-                        <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/temp.png" alt="portfolio 8">
+                        <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/light.png" alt="portfolio 8">
 
                     </a>
                 </div> <!-- /.portfolio-thumb -->
                                 <div class="portfolio-text">
                     <div class="portfolio-text-headline">
-                        Lorem ipsum dolor
+                        Освещение
                     </div>
                     <div class="portfolio-text-description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque obcaecati, possimus quasi rerum
-                        sapiente sunt.
+                        Мы за современные электрические системы без нарушения Советских норм.
                     </div>
                 </div>
             </div>

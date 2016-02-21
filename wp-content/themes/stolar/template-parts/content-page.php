@@ -12,11 +12,6 @@
 
     <?php kama_breadcrumbs() ?>
 
-
-    <div class="entry-header">
-        <?php the_title('<h1 class="entry-title">', '</h1>'); ?>
-    </div><!-- .entry-header -->
-
     <div class="entry-content">
         <?php
         the_content();

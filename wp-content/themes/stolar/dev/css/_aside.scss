@@ -18,7 +18,7 @@
 
 section.left-navigation {
   position: absolute;
-  z-index: 1000000;
+  z-index: 2;
   box-sizing: border-box;
   top: 0;
   width: $aside-width;
@@ -128,7 +128,7 @@ section.left-navigation {
   z-index: 2;
   width: 60px;
   height: 50px;
-  background: $main-blue;
+  background: $main-green;
   position: fixed;
   top: 118px;
   left: 30px;

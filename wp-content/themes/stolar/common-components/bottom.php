@@ -22,7 +22,8 @@
                            class="swipebox"
                            title="My Caption">
 
-                            <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/potolok.png" alt="portfolio 1">
+                            <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/potolok.png"
+                                 alt="portfolio 1">
 
                         </a>
                     </li>
@@ -32,7 +33,8 @@
                            class="swipebox"
                            title="My Caption">
 
-                            <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/homeAndVillage.png" alt="portfolio 2">
+                            <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/homeAndVillage.png"
+                                 alt="portfolio 2">
 
                         </a>
                     </li>
@@ -42,17 +44,19 @@
                            class="swipebox"
                            title="My Caption">
 
-                            <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/otdelka.png" alt="portfolio 3">
+                            <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/otdelka.png"
+                                 alt="portfolio 3">
 
                         </a>
                     </li>
                     <li>
                         <a rel="gallery-2"
-                           href="<?php bloginfo('template_url'); ?>/images/index/portfolio/full/temp.png"
+                           href="<?php bloginfo('template_url'); ?>/images/index/portfolio/full/balcony.png"
                            class="swipebox"
                            title="My Caption">
 
-                            <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/temp.png" alt="portfolio 4">
+                            <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/balcony.png"
+                                 alt="portfolio 4">
 
                         </a>
                     </li>
@@ -62,7 +66,8 @@
                            class="swipebox"
                            title="My Caption">
 
-                            <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/lestnica.png" alt="portfolio 5">
+                            <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/lestnica.png"
+                                 alt="portfolio 5">
 
                         </a>
                     </li>
@@ -72,9 +77,33 @@
                            class="swipebox"
                            title="My Caption">
 
-                            <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/antresoli.png" alt="portfolio 6">
+                            <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/antresoli.png"
+                                 alt="portfolio 6">
 
                         </a>
+                    </li>
+                    <li>
+                        <a rel="gallery-2"
+                           href="<?php bloginfo('template_url'); ?>/images/index/portfolio/full/light.png"
+                           class="swipebox"
+                           title="My Caption">
+
+                            <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/light.png"
+                                 alt="portfolio 7">
+
+                        </a></li>
+                    <li>
+                        <a rel="gallery-2"
+                           href="<?php bloginfo('template_url'); ?>/images/index/portfolio/full/build-in-furniture.png"
+                           class="swipebox"
+                           title="My Caption">
+
+                            <img
+                                src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/build-in-furniture.png"
+                                alt="portfolio 8">
+
+                        </a>
+
                     </li>
                     <li>
                         <a rel="gallery-2"
@@ -82,27 +111,8 @@
                            class="swipebox"
                            title="My Caption">
 
-                            <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/temp.png" alt="portfolio 7">
-
-                        </a>                    </li>
-                    <li>
-                        <a rel="gallery-2"
-                           href="<?php bloginfo('template_url'); ?>/images/index/portfolio/full/temp.png"
-                           class="swipebox"
-                           title="My Caption">
-
-                            <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/temp.png" alt="portfolio 8">
-
-                        </a>
-
-                    </li>
-                    <li>
-                        <a rel="gallery-2"
-                           href="<?php bloginfo('template_url'); ?>/images/index/portfolio/full/temp.png"
-                           class="swipebox"
-                           title="My Caption">
-
-                            <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/temp.png" alt="portfolio 8">
+                            <img src="<?php bloginfo('template_url'); ?>/images/index/portfolio/mini/temp.png"
+                                 alt="portfolio 8">
 
                         </a>
                     </li>

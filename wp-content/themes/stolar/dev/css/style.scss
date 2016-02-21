@@ -28,8 +28,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "widget";
 @import "swipebox";
 @import "aside";
-@import "profile";
+@import "contacts";
 @import "yamn";
+@import "profile";
 
 html, body {
   height: 100%;
@@ -141,8 +142,8 @@ article {
 .navbar-brand {
   float: none;
   line-height: inherit;
-  font-size: 2.5em;
-  font-weight: 100;
+  font-size: 2.3em;
+  font-weight: 400;
 
   i {
     -webkit-transform: rotate(0deg);
@@ -160,6 +161,7 @@ article {
       transform: rotate(360deg);
     }
   }
+
 }
 
 .navbar-inverse {
@@ -333,8 +335,9 @@ fieldset {
 
   li {
     @include transition(0.35s);
+
     &:hover {
-      background-color: rgba(0, 0, 0, 0.82) !important;
+      background-color: rgba(0, 0, 0, 0.82);
       cursor: pointer !important;
     }
   }
@@ -351,6 +354,7 @@ div#jivo-iframe-container {
 
   a {
     @include transition(0.2s);
+    color: #555!important;
     &:hover {
       color: darken($main-green, 50%);
       font-weight: 500;
@@ -360,6 +364,7 @@ div#jivo-iframe-container {
 
 footer {
   @include shadow(2);
+  z-index: 10;
   span {
     color: white;
   }
@@ -385,4 +390,10 @@ footer {
       }
     }
   }
+}
+
+@import "redesign";
+
+#swipebox-top-bar, #swipebox-bottom-bar{
+  background: $olympic;
 }

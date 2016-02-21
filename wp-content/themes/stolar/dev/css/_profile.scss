@@ -1,3 +1,59 @@
-.entry-title{
-  text-align: center;
+.standalone {
+  @include shadow(4);
+  background: #ffffff;
+  border-radius: 2px 2px 0 0;
+
+  &-headline {
+    margin: 2% 0 0 0;
+    min-height: 76px;
+
+    h3 {
+      color: $olympic;
+      font-size: 3em;
+      font-weight: 100;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    span{
+      display: none;
+    }
+  }
+  &-content {
+    &-text-importance-1 {
+      color: darken($main-gray, 55%);
+      font-size: 1.2em;
+    }
+
+    &-text-importance-2 {
+      color: darken($main-gray, 55%);
+      font-size: 1.3em;
+      font-weight: 400;
+    }
+    &-text-importance-3 {
+      color: darken($main-gray, 55%);
+      font-size: 1.45em;
+      font-weight: 500;
+    }
+
+    img {
+      @include shadow(2);
+      border-radius: 2px;
+      margin-bottom: 3%;
+    }
+
+    &-1, &-2, &-3 {
+
+    }
+
+    &-left {
+
+    }
+    &-right {
+
+    }
+  }
+}
+
+.visible{
+  opacity: 1;
 }

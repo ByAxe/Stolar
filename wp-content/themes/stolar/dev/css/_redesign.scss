@@ -1,0 +1,98 @@
+body {
+  background: #ffffff !important;
+
+  .navbar {
+
+    &-inverse {
+      background: $main-green !important;
+      border-bottom: none !important;
+
+      li {
+        &:hover {
+          background-color: darken($main-green, 10%) !important;
+        }
+
+        a {
+          color: white !important;
+        }
+      }
+    }
+    &-brand {
+      font-size: 2.3em;
+      font-weight: 400;
+      color: white !important;
+    }
+
+  }
+  .templatemo {
+
+    &_portfolio {
+      background: #fff;
+
+      h2{
+        font-size: 2.2em;
+        color: #DCC77B;
+        font-weight: 300;
+      }
+
+      .portfolio-text{
+        background: #F8F7F1;
+      }
+    }
+
+    &_about_box {
+      background: white !important;
+      color: inherit !important;
+
+      .hover-box, .texts-a {
+        background: $olympic !important;
+      }
+    }
+
+    &_reasonbg {
+      background: $main-gray center;
+      padding: 30px 0 70px;
+      color: #797979;
+      text-align: center;
+
+      h2 {
+        font-size: 2.2em;
+        color: $olympic;
+        font-weight: 500;
+      }
+
+      p {
+        color: inherit;
+        font-size: 1.2em;
+
+      }
+      div.fa {
+        font-size: 100px;
+        margin: 10px 50px;
+
+        .fa-circle{
+          display: none;
+        }
+      }
+    }
+    &_bottom{
+      background: $main-green;
+
+      div.soc{
+        color: darken($main-green, 10%);
+      }
+    }
+  }
+  .order-form{
+    background: #fff;
+
+    form{
+      @include shadow(1);
+      background: lighten($main-gray, 8%);
+
+      legend{
+        color: $main-green;
+      }
+    }
+  }
+}
